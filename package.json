@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Xalava/dbond-server#readme",
   "dependencies": {
     "@bloomprotocol/share-kit": "^2.0.1",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "sortobject": "^1.1.1"
   }
 }

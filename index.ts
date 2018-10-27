@@ -38,6 +38,7 @@ const port = 3000
 
 
 const ethUtil = require('ethereumjs-util')
+const sortObject = require('sortobject')
 
 export const recoverHashSigner = (hash: Buffer, sig: string): string => {
   const signature = ethUtil.toBuffer(sig)
